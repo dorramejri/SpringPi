@@ -1,0 +1,12 @@
+esprit.gestionOuvrages.App=org.springframework.stereotype.Component
+esprit.gestionOuvrages.controller.UserController=org.springframework.stereotype.Component
+esprit.gestionOuvrages.model.AbstractAdminTheme=javax.persistence.MappedSuperclass
+esprit.gestionOuvrages.model.AbstractReclamationTheme=javax.persistence.MappedSuperclass
+esprit.gestionOuvrages.model.AbstractSimpleTheme=javax.persistence.MappedSuperclass
+esprit.gestionOuvrages.model.AbstractUsersTheme=javax.persistence.MappedSuperclass
+esprit.gestionOuvrages.model.Simple=javax.persistence.Entity
+esprit.gestionOuvrages.model.Users=javax.persistence.Entity
+esprit.gestionOuvrages.repository.SimpleRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+esprit.gestionOuvrages.repository.UsersRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+esprit.gestionOuvrages.services.SimpleService=org.springframework.stereotype.Component
+esprit.gestionOuvrages.services.UserService=org.springframework.stereotype.Component
